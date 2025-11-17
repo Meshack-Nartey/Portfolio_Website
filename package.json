@@ -1,16 +1,14 @@
 {
   "name": "portfolio_website",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Meshack Nartey Portfolio Website",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "start": "parcel index.html",
+  "build": "parcel build index.html --dist-dir dist --public-url ./"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Meshack Nartey",
   "license": "ISC",
-  "type": "commonjs",
   "devDependencies": {
-    "parcel-bundler": "^1.12.4"
+    "parcel": "^2.16.1"
   }
 }
