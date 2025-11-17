@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Blog - Meshack Kwame</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Algreya:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-container container">
+        <div class="nav-logo"><i class="fas fa-code"></i> MKN</div>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="index.html#home" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="index.html#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="index.html#projects" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="index.html#skills" class="nav-link">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="index.html#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main class="container blog-container">
+      <header class="blog-header">
+        <h1>From the Blog</h1>
+        <p class="lead">
+          Short notes on design, engineering, and product thinking.
+        </p>
+      </header>
+
+      <section class="posts">
+        <article class="post">
+          <h2 class="post-title">Designing for Trust on Campus Apps</h2>
+          <div class="post-meta">Nov 10, 2025 • 6 min read</div>
+          <p class="post-excerpt">
+            When building safety-focused apps like BuddyGuard, trust isn't just
+            a UI problem — it's a system property. In this post I walk through
+            three practical patterns I used to increase adoption and perceived
+            safety during early pilot tests.
+          </p>
+          <div class="post-body">
+            <p>
+              <strong>Abstract</strong>: privacy-first defaults, graceful
+              permission requests, and social proof channels made a measurable
+              difference in adoption.
+            </p>
+            <p>
+              Summary: Use progressive disclosure, clearly explain why location
+              is needed, and provide easy ways to revoke access. Build audit
+              logs and let users control who sees what.
+            </p>
+          </div>
+        </article>
+
+        <article class="post">
+          <h2 class="post-title">A Pragmatic Approach to Offline-First Sync</h2>
+          <div class="post-meta">Oct 23, 2025 • 5 min read</div>
+          <p class="post-excerpt">
+            Mobile apps used in campus environments must handle flaky
+            connectivity. Here's a simple offline-first sync pattern I
+            implemented for Shuttle Smart that keeps the UI responsive and
+            prevents duplicate writes.
+          </p>
+          <div class="post-body">
+            <p>
+              Use local optimistic updates, queue mutations, and a compact
+              conflict-resolution policy (last-write-wins + tombstones for
+              deletes). Keep sync batches small and instrument telemetry for
+              retry behavior.
+            </p>
+          </div>
+        </article>
+
+        <article class="post">
+          <h2 class="post-title">Why Product Strategy Beats Feature Lists</h2>
+          <div class="post-meta">Sep 2, 2025 • 4 min read</div>
+          <p class="post-excerpt">
+            I used to try to ship everything users asked for. Over time I
+            learned to say no. This short piece explains a simple prioritization
+            framework I use: problem severity × frequency × technical cost.
+          </p>
+          <div class="post-body">
+            <p>
+              Features should be judged by the problems they solve. Maintain a
+              lightweight roadmap and build guardrails that prevent scope creep.
+              Use prototypes and quick experiments to validate assumptions
+              before you build the whole thing.
+            </p>
+          </div>
+        </article>
+      </section>
+
+      <div style="text-align: center; margin: 40px 0">
+        <a href="index.html" class="btn btn-secondary">Back to portfolio</a>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2025 Meshack Kwame. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

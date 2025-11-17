@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+      content="Software Engineer specializing in building impactful digital solutions."/>
+    <title>Meshack's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Algreya:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-logo"><i class="fas fa-code"></i> MKN</div>
+        <!-- Mobile menu toggle (three dots) -->
+        <button
+          class="nav-toggle"
+          aria-controls="nav-menu"
+          aria-expanded="false"
+          aria-label="Open navigation"
+        >
+          <i class="fas fa-ellipsis-v" aria-hidden="true"></i>
+        </button>
+        <ul id="nav-menu" class="nav-menu">
+          <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item">
+            <a href="#projects" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-image">
+        <img src="img/hero.jpg" alt="Profile Picture" />
+      </div>
+      <div class="hero-content">
+        <h1>Hi, I'm <span class="highlight">Meshack Kwame</span></h1>
+        <p class="subtitle">
+          Software Engineer | Ethical & transformative Leader
+        </p>
+        <p class="description">
+          I create meaningful digital solutions that help people succeed — in
+          business, education, health, and everyday life. From websites and
+          mobile apps to scalable platforms and intelligent systems, I design
+          and build solutions that solve real problems and create lasting
+          impact. Let’s work together to turn your vision into reality.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+          <a href="blog.html" class="btn btn-secondary" id="view-blog"
+            >Blog Posts</a
+          >
+          <a
+            href="voluntary.html"
+            class="btn btn-secondary"
+            id="voluntary-works"
+            >Voluntary Works</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="section-title">Want to Know More About Me ?</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              I'm a software engineer and designer passionate about using
+              technology to transform lives across Africa. I build meaningful
+              digital solutions—websites, mobile applications, and intelligent
+              systems—that solve real problems and create lasting impact. With
+              experience in backend engineering, UI/UX, AI, and product
+              development, I focus on understanding user needs deeply and
+              crafting solutions that are functional, intuitive, and empowering.
+              I also volunteer to train and educate others, providing leadership
+              training and helping people gain the skills and confidence they
+              need to grow. My mission is simple: use technology, creativity,
+              and ethical leadership to help people and businesses achieve their
+              goals.
+            </p>
+            <div class="about-list">
+              <span class="tag">Full Stack Development</span>
+              <span class="tag">Responsive Web Design</span>
+              <span class="tag">UI/UX Optimization</span>
+              <span class="tag">API Development</span>
+            </div>
+          </div>
+          <div class="about-image">
+            <img src="img/about.png" alt="About Picture" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2 class="section-title">Explore My Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-image">
+              <img src="img/project1.png" alt="BuddyGuard" />
+            </div>
+            <div class="project-info">
+              <h3>BuddyGuard</h3>
+              <p>
+                BuddyGuard is a campus safety app designed to keep students
+                secure. It enables users to connect with trusted companions,
+                share real-time locations, and send instant alerts in case of
+                emergencies. The app empowers students to move around campus
+                confidently, fostering a safer and more connected community.
+              </p>
+
+              <!-- Status: In Progress (BuddyGuard) -->
+              <div class="project-status">
+                <span class="status-label in-progress">In Progress</span>
+                <div
+                  class="status-bar"
+                  role="progressbar"
+                  aria-label="BuddyGuard progress"
+                  aria-valuenow="45"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  <div class="status-fill" style="width: 45%"></div>
+                </div>
+              </div>
+
+              <div class="project-tags">
+                <span class="tag">Java</span>
+                <span class="tag">Spring Boot</span>
+                <span class="tag">JWT</span>
+                <span class="tag">PostgreSQL</span>
+                <span class="tag">Figma</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://github.com/Meshack-Nartey/BuddyGuard"
+                  class="btn-link"
+                  >GitHub</a
+                >
+                <a
+                  href="https://www.figma.com/file/YOUR_BUDDYGUARD_FIGMA_ID"
+                  class="btn-link view-demo"
+                  target="_blank"
+                  rel="noopener"
+                  data-figma="https://www.figma.com/design/MD51FPTWP0g1ni1BAdSf9W/BUDDYGUARD?node-id=1-248&t=76aYeTUW7SEPkXa0-1"
+                  data-title="BuddyGuard Design"
+                  >View Demo</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <img src="img/project2.jpg" alt="Paymii" />
+            </div>
+            <div class="project-info">
+              <h3>Paymii – Cryptocurrency App</h3>
+              <p>
+                A secure and intuitive crypto wallet platform that allows users
+                to store, send, and receive digital currencies effortlessly.
+                With real-time transaction tracking, advanced security features,
+                and a user-friendly interface, Paymii makes managing
+                cryptocurrency simple, fast, and reliable for both beginners and
+                experienced users.
+              </p>
+              <p></p>
+              <div class="project-tags">
+                <span class="tag">React Native</span>
+                <span class="tag">Spring Boot</span>
+                <span class="tag">Firebase</span>
+                <span class="tag">PostgreSQL</span>
+                <span class="tag">Figma</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://github.com/paymii90/Paymii"
+                  class="btn-link"
+                  target="_blank"
+                  rel="noopener"
+                  >GitHub</a
+                >
+                <a
+                  href="https://www.figma.com/file/YOUR_PAYMII_FIGMA_ID"
+                  class="btn-link view-demo"
+                  target="_blank"
+                  rel="noopener"
+                  data-figma="https://www.figma.com/design/cXY1fKf5mrck5uoE5CgVit/Paymii?node-id=0-1&t=Gtggrs6fY1nd1Ai8-1"
+                  data-title="Paymii Design"
+                  >View Demo</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <img src="img/project3.png" alt="Shuttle Smart" />
+            </div>
+            <div class="project-info">
+              <h3>Shuttle Smart</h3>
+              <p>
+                Shuttle Smart is a mobile-first campus shuttle tracking app that
+                helps students and staff navigate campus efficiently. The app
+                provides real-time shuttle locations, estimated arrival times,
+                and route details, ensuring users can plan their trips with
+                ease. With notifications, safety features, and a seamless
+                interface, Shuttle Smart makes campus transportation reliable,
+                convenient, and stress-free.
+              </p>
+
+              <!-- Status: In Progress (Shuttle Smart) -->
+              <div class="project-status">
+                <span class="status-label in-progress">In Progress</span>
+                <div
+                  class="status-bar"
+                  role="progressbar"
+                  aria-label="Shuttle Smart progress"
+                  aria-valuenow="35"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  <div class="status-fill" style="width: 35%"></div>
+                </div>
+              </div>
+
+              <div class="project-tags">
+                <span class="tag">Java</span>
+                <span class="tag">Spring Boot</span>
+                <span class="tag">MySQL</span>
+                <span class="tag">Firebase</span>
+                <span class="tag">Figma</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://github.com/Meshack-Nartey/shuttle_smart"
+                  class="btn-link"
+                  >GitHub</a
+                >
+                <a
+                  href="https://www.figma.com/file/YOUR_SHUTTLESMART_FIGMA_ID"
+                  class="btn-link view-demo"
+                  target="_blank"
+                  rel="noopener"
+                  data-figma="https://www.figma.com/design/viQ0HPFgr846CCBscAbyw9/SHUTTLE-SMART-PROJECT?node-id=681-1418&t=4NC2dXCh7c3Koibi-1"
+                  data-title="Shuttle Smart Design"
+                  >View Demo</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- CTA: Explore more projects -->
+        <div class="projects-cta">
+          <a
+            href="#"
+            class="btn btn-primary"
+            id="explore-projects"
+            title="Explore more projects"
+            >More Projects Underway...</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <div class="container">
+        <h2 class="section-title">Skills & Technologies</h2>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3>Frontend</h3>
+            <ul class="skill-list">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>Bootstrap</li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h3>Backend</h3>
+            <ul class="skill-list">
+              <li>Spring Boot</li>
+              <li>Java</li>
+              <li>RESTful API</li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h3>Database</h3>
+            <ul class="skill-list">
+              <li>SQL Server</li>
+              <li>PostgreSQL</li>
+              <li>MySQL</li>
+              <li>Firebase</li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h3>Tools & Others</h3>
+            <ul class="skill-list">
+              <li>Git & GitHub</li>
+              <li>Docker</li>
+              <li>AWS</li>
+              <li>VS Code & IntelliJ</li>
+              <li>Figma</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="contact-subtitle">
+          I'd love to hear from you. Send me a message!
+        </p>
+        <form
+          id="contact-form"
+          class="contact-form"
+          data-endpoint="https://formspree.io/f/xyzloogn"
+        >
+          <div class="form-group">
+            <input name="name" type="text" placeholder="Your Name" required />
+          </div>
+          <div class="form-group">
+            <input
+              name="email"
+              type="email"
+              placeholder="Your Email"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <textarea
+              name="message"
+              placeholder="Your Message"
+              rows="5"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">
+            <span class="btn-text">Send Message</span>
+            <span class="btn-spinner" aria-hidden="true"></span>
+          </button>
+          <div
+            id="contact-msg"
+            role="status"
+            aria-live="polite"
+            style="margin-top: 12px"
+          ></div>
+        </form>
+        <div class="social-links">
+          <a
+            href="https://github.com/Meshack-Nartey"
+            class="social-link"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="GitHub"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/meshacknartey"
+            class="social-link"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a
+            href="https://x.com/mesh_asher?s=21"
+            class="social-link"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="X"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a
+            href="mailto:narteykwamemeshack@gmailcom"
+            class="social-link"
+            aria-label="Email"
+            title="Send me an email"
+            ><i class="fas fa-envelope"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Image modal for project demos -->
+    <div id="image-modal" class="modal" aria-hidden="true">
+      <div class="modal-content">
+        <button class="modal-close" aria-label="Close">&times;</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
