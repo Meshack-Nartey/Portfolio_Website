@@ -1,202 +1,199 @@
-# My Portfolio Website
+Meshack Nartey | Portfolio Website
 
-A modern, responsive portfolio website showcasing your projects, skills, and experience.
+A modern, responsive portfolio website showcasing my projects, skills, experiences, and voluntary work, designed to highlight my work as a software engineer, designer, and tech mentor.
 
-## Features
+Features
 
-✨ **Modern Design**
+✨ Modern Design
 
-- Clean, professional layout with modern styling
-- Responsive design that works on all devices
-- Smooth scrolling and animations
+Clean, professional layout with modern styling
 
-🎨 **Sections**
+Fully responsive across devices
 
-- **Navigation Bar** - Sticky header with smooth navigation
-- **Hero Section** - Eye-catching introduction with call-to-action buttons
-- **About** - Personal introduction and key highlights
-- **Projects** - Showcase your best work with descriptions and links
-- **Skills** - Organized display of your technical skills
-- **Contact** - Contact form and social media links
-- **Footer** - Copyright information
+Smooth scrolling and subtle animations
 
-📱 **Responsive**
+🎨 Sections
 
-- Mobile-friendly design
-- Tablet and desktop optimized
-- Smooth touch interactions
+Navigation Bar – Sticky header with smooth navigation
 
-⚡ **Interactive**
+Hero Section – Eye-catching introduction with call-to-action buttons
 
-- Smooth scroll navigation
-- Form validation
-- Hover animations and effects
-- Intersection Observer for scroll animations
+About – My personal introduction, skills, and highlights
 
-## Getting Started
+Projects – Showcasing software, design, and tech projects
 
-### Prerequisites
+Skills – Organized display of technical expertise and tools
 
-- A web browser
-- Text editor (VS Code recommended)
+Voluntary Work – Highlights of mentoring, ALX Career Fair, and youth initiatives
 
-### Setup Instructions
+Contact – Contact form and social media links
 
-1. **Update Your Information**
+Footer – Copyright and social information
 
-   - Edit `index.html` and replace "Your Name" with your actual name
-   - Update the subtitle and description in the hero section
-   - Modify the About section with your bio
+📱 Responsive
 
-2. **Add Your Images**
+Mobile-first design
 
-   - Place your images in the `img/` folder:
-     - `hero.jpg` - Profile/hero image (recommended: 400x400px)
-     - `about.jpg` - About section image (recommended: 400x400px)
-     - `project1.jpg`, `project2.jpg`, `project3.jpg` - Project images (recommended: 300x200px)
+Tablet and desktop optimized
 
-3. **Update Projects**
+Smooth touch interactions
 
-   - Edit the project cards in the Projects section
-   - Update project titles, descriptions, and links
-   - Replace placeholder image references with your actual project images
+⚡ Interactive
 
-4. **Update Skills**
+Smooth scroll navigation
 
-   - Customize the skill categories and items to match your expertise
-   - Add or remove skills as needed
+Form validation
 
-5. **Update Contact Links**
-   - Replace social media links with your actual profiles (GitHub, LinkedIn, Twitter, Email)
-   - Configure the contact form backend (currently shows a demo message)
+Hover effects for buttons and projects
 
-### File Structure
+Scroll-triggered animations
 
-```
+Getting Started
+Prerequisites
+
+Web browser (Chrome, Firefox, Edge, Safari)
+
+Text editor (VS Code recommended)
+
+Setup Instructions
+
+Update Your Information
+
+Edit index.html to update my name, bio, and project details
+
+Customize hero section subtitle and description
+
+Add Your Images
+
+Place images in the img/ folder:
+
+hero.jpg – Hero/profile image
+
+about.png – About section image
+
+Project images (e.g., project1.png, project2.jpg, etc.)
+
+Update Projects
+
+Edit project cards to update titles, descriptions, and links
+
+Replace placeholder images with real project screenshots
+
+Update Skills
+
+Customize skill categories to reflect my technical expertise
+
+Update Contact Links
+
+Replace social media links with GitHub, LinkedIn, and email
+
+Configure contact form backend if needed
+
+File Structure
 Portfolio_Website/
-├── index.html          # Main HTML file
-├── style.css           # Styling
-├── script.js           # JavaScript functionality
-└── img/                # Images folder
+├── index.html
+├── style.css
+├── script.js
+├── README.md
+└── img/
     ├── hero.jpg
-    ├── about.jpg
-    ├── project1.jpg
+    ├── about.png
+    ├── project1.png
     ├── project2.jpg
-    └── project3.jpg
-```
+    └── project3.png
 
-## Customization
+Customization
+Colors
 
-### Colors
+Edit the CSS variables in style.css:
 
-Edit the CSS variables in `style.css`:
-
-```css
 :root {
-  --primary-color: #2563eb; /* Main brand color */
-  --secondary-color: #1e40af; /* Darker shade */
-  --text-color: #1f2937; /* Text color */
+  --primary-color: #2563eb; /* Brand blue */
+  --secondary-color: #1e40af; /* Dark shade */
+  --text-color: #1f2937; /* Default text */
   --light-bg: #f9fafb; /* Light background */
   --dark-bg: #1f2937; /* Dark background */
 }
-```
 
-### Fonts
+Fonts
 
-The site uses system fonts for optimal performance. To use Google Fonts:
+Currently uses system fonts for performance
 
-1. Add to `<head>` in `index.html`:
-   ```html
-   <link
-     href="https://fonts.googleapis.com/css2?family=YourFont:wght@400;700&display=swap"
-     rel="stylesheet"
-   />
-   ```
-2. Update the `font-family` in `style.css`
+To use Google Fonts, add to <head> in index.html:
 
-### Contact Form
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 
-The current form shows a demo message. To make it functional:
+Contact Form
 
-1. Use a service like FormSubmit, Netlify Forms, or EmailJS
-2. Update the form submission handler in `script.js`
+Current form displays a demo message
 
-## Browser Support
+To make functional, integrate FormSubmit, EmailJS, or a backend service
 
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
+Update script.js form handler accordingly
 
-## Deployment
+Deployment
+Free Hosting Options
 
-### Free Hosting Options
+GitHub Pages – Directly host via repository
 
-1. **GitHub Pages**
+Netlify – Auto-deploy from GitHub
 
-   - Push to GitHub repository
-   - Enable GitHub Pages in settings
+Vercel – Fast static site hosting
 
-2. **Netlify**
+Firebase Hosting – Google-hosted web apps
 
-   - Connect your GitHub repository
-   - Auto-deploys on push
+Tips
 
-3. **Vercel**
+Use high-quality images for projects
 
-   - Similar to Netlify
-   - Great performance
+Showcase real projects and live demos
 
-4. **Firebase**
-   - Google's hosting platform
-   - Good free tier
+Keep portfolio updated regularly
 
-## Tips for Success
+Optimize for SEO and performance
 
-1. **High-Quality Images** - Use professional, well-lit photos
-2. **Real Projects** - Link to actual projects you've built
-3. **Keep It Updated** - Regularly update your projects and skills
-4. **SEO Optimization** - Update meta tags and description
-5. **Performance** - Optimize images for faster loading
+Additional Features You Can Add
 
-## Additional Features You Can Add
+Blog or articles section
 
-- Blog section for articles
-- Testimonials from clients/colleagues
-- Resume download button
-- Dark mode toggle
-- Language switcher
-- Animation effects
-- Search functionality
+Testimonials from mentors or collaborators
 
-## Troubleshooting
+Resume download button
 
-**Images not showing?**
+Dark mode toggle
 
-- Ensure image files are in the `img/` folder
-- Check file names match exactly in HTML
-- Use correct file extensions
+Multi-language support
 
-**Navigation links not working?**
+Interactive animations and search
 
-- Verify section IDs match the href attributes
-- Check that JavaScript is enabled
+Troubleshooting
 
-**Form not submitting?**
+Images not showing?
 
-- Set up a backend service for form handling
-- Check browser console for errors
+Ensure files are in the img/ folder
 
-## Support & Resources
+Check file names and extensions
 
-- [MDN Web Docs](https://developer.mozilla.org/)
-- [CSS Tricks](https://css-tricks.com/)
-- [Font Awesome Icons](https://fontawesome.com/)
+Navigation links not working?
 
-## License
+Section IDs must match href attributes
 
-This portfolio template is free to use and modify for personal use.
+Form not submitting?
 
----
+Ensure backend integration is set up
 
-**Happy coding! 🚀 Good luck with your portfolio!**
+Check browser console for errors
+
+Support & Resources
+
+MDN Web Docs
+
+CSS Tricks
+
+Font Awesome
+
+License
+
+This portfolio is free to use and modify for personal purposes.
+
+Happy coding! 🚀 This portfolio reflects my work as a software engineer, designer, and mentor.
