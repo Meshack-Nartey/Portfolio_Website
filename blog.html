@@ -10,13 +10,25 @@
       href="https://fonts.googleapis.com/css2?family=Algreya:wght@400;700;800&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <nav class="navbar">
       <div class="nav-container container">
         <div class="nav-logo"><i class="fas fa-code"></i> MKN</div>
-        <ul class="nav-menu">
+        <button
+          class="nav-toggle"
+          aria-controls="nav-menu"
+          aria-expanded="false"
+          aria-label="Open navigation"
+        >
+          <i class="fas fa-ellipsis-v" aria-hidden="true"></i>
+        </button>
+        <ul id="nav-menu" class="nav-menu">
           <li class="nav-item">
             <a href="index.html#home" class="nav-link">Home</a>
           </li>
